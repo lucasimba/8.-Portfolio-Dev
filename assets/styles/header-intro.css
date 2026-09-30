@@ -8,6 +8,7 @@ header {
   width: 100vw;
   color: var(--gray-100);
   gap: 15px;
+  padding: 4.5rem 7.5rem;
 }
 
 .header-intro h2 {
@@ -55,7 +56,7 @@ header {
 
 .ph-caret-double-down {
   color: var(--gray-300);
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .header-down {
   margin-top: 2rem;

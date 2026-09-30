@@ -1,0 +1,16 @@
+footer {
+  background-image: url(/assets/imgs/Background_Intro.png);
+}
+
+footer p {
+  font: var(--subtitle);
+  color: var(--purple);
+}
+footer h3 {
+  font: var(--title-md);
+  color: var(--gray-100);
+}
+footer h2 {
+  font: var(--text-md);
+  color: var(--gray-200);
+}
