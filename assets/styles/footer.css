@@ -1,5 +1,8 @@
 footer {
   background-image: url(/assets/imgs/Background_Intro.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
