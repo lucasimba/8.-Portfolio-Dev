@@ -1,5 +1,11 @@
 footer {
   background-image: url(/assets/imgs/Background_Intro.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 7.5rem 9rem;
+  gap: 3rem;
 }
 
 footer p {
@@ -13,4 +19,32 @@ footer h3 {
 footer h2 {
   font: var(--text-md);
   color: var(--gray-200);
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-cards {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+}
+
+.footer-cards a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
